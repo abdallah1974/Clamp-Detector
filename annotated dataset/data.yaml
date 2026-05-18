@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Clamp']
+
+roboflow:
+  workspace: abdallah-qhgtv
+  project: clamp-detection-qih8a
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abdallah-qhgtv/clamp-detection-qih8a/dataset/1
